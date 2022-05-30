@@ -12,4 +12,4 @@ Retrofit+Handler+自定义View+ViewTreeObserver
 
 
 
-![customizeView](imgs\customizeView.png)
+![customizeView](https://user-images.githubusercontent.com/93441348/171026348-d9f1ebfe-c009-40ee-bc36-9556cef0f296.png)

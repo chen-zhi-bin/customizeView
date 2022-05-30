@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowTextLayout">
+        <attr name="maxLine" format="integer"/>
+        <attr name="itemHorizontalMargin" format="dimension"/>
+        <attr name="itemVertaicalMargin" format="dimension"/>
+        <attr name="textMaxLength" format="integer"/>
+        <attr name="textColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="borderRadius" format="dimension"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="SquareImageView">
+
+        <attr name="maxImageLine" format="integer"/>
+        <attr name="itmeMargin" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="AutoLoopStyle">
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片来自于必应每日一图"
+        android:id="@+id/item_image_text"
+        />
+
+    <com.program.customizeview.view.SquareImageView
+        android:layout_below="@+id/item_image_text"
+        android:id="@+id/square_Iv"
+        app:itmeMargin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/teal_200" />
+</RelativeLayout>
